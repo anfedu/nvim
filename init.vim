@@ -1,16 +1,16 @@
 """"""""""""""""""""""""""""""""""""
 """""" global configuratin  """"""""
 """"""""""""""""""""""""""""""""""""
-source init.d/plugin_list.vim
-source init.d/general.vim
-source init.d/keys.vim
-source init.d/filetype.vim
+source $HOME/.config/nvim/init.d/plugin_list.vim
+source $HOME/.config/nvim/init.d/general.vim
+source $HOME/.config/nvim/init.d/keys.vim
+source $HOME/.config/nvim/init.d/filetype.vim
 
 """"""""""""""""""""""""""""""""""
 """""" plugin configuration """"""
 """"""""""""""""""""""""""""""""""
-source plugin/airline.vim
-source plugin/indentline.vim
-source plugin/coc.vim
-source plugin/NERDTree.vim
-source plugin/devicons.vim
+source $HOME/.config/nvim/plugin/airline.vim
+source $HOME/.config/nvim/plugin/indentline.vim
+source $HOME/.config/nvim/plugin/coc.vim
+source $HOME/.config/nvim/plugin/NERDTree.vim
+source $HOME/.config/nvim/plugin/devicons.vim

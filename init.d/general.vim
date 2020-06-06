@@ -14,9 +14,6 @@ set noshowmode
 set updatetime=50
 
 " backup
-" set backupdir=~/.vim/backup/
-" set directory=~/.vim/swp/
-" set undodir=~/.vim/undo/
 set nobackup
 set noswapfile
 
