@@ -1,0 +1,13 @@
+{
+  "eslint.autoFixOnSave": true,
+  "javascript.validate.enable": false,
+  "eslint.quiet": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "html",
+    "css",
+    "c",
+    "cpp",
+    "python"
+  ]
+}
