@@ -30,6 +30,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
 Plug 'martinjego/react-native-vim-snippets'
 Plug 'jvanja/vim-bootstrap4-snippets'
+Plug 'epilande/vim-react-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
  let g:coc_global_extensions=[
         \ 'coc-css',

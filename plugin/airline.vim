@@ -36,3 +36,21 @@ let g:airline_mode_map = {
       \ 'vimfiler': [ 'vimfiler', '%{vimfiler#get_status_string()}' ],
       \ 'vimshell': ['vimshell','%{vimshell#get_status_string()}'],
       \ }
+
+
+" untuk header atas 
+let g:airline#extensions#tabline#show_close_button = 0
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline_skip_empty_sections = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#syntastic#enabled = 0
+let g:airline_detect_iminsert=1
+let g:airline#extensions#tmuxline#enabled = 0
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#show_tabs = 0
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
+let g:airline#extensions#tabline#show_splits = 1
+let g:airline#extensions#wordcount#enabled = 0
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tagbar#enabled = 1

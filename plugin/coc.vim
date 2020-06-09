@@ -19,7 +19,7 @@ nmap <leader>a  <Plug>(coc-codeaction-selected)
 inoremap <expr><S-Tab> pumvisible() ? "\<C-p>" : "\<C-h>"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <silent><expr> <c-space> coc#refresh()
-nnoremap <silent> K :call <SID>show_documentation()<CR>
+" nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 " imap <A-Tab> <Plug>(coc-snippets-expand)
 nmap <leader>rn <Plug>(coc-rename)

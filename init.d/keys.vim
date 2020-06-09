@@ -6,6 +6,7 @@ nmap <silent> <c-l> :wincmd l<CR>
 
 " nerdtree
 map <leader>e :NERDTreeToggle<CR>
+nnoremap <leader>n :let NERDTreeQuitOnOpen = 0<CR>
 
 " basic maping
 nnoremap <S-k> :tabprevious<CR>

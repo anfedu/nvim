@@ -4,7 +4,9 @@
   "eslint.quiet": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "json",
+    "javascript",
     "html",
+    "php",
     "css",
     "c",
     "cpp",

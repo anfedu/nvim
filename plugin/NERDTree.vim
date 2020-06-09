@@ -1,7 +1,6 @@
 if exists('g:plugs["nerdtree"]')
 
   let g:WebDevIconsDisableDefaultFolderSymbolColorFromNERDTreeDir = 1
-  " let g:WebDevIconsDisableDefaultFileSymbolColorFromNERDTreeFile = 1
 
   let g:NERDTreeFileExtensionHighlightFullName = 1
   let g:NERDTreeExactMatchHighlightFullName = 1
@@ -15,6 +14,7 @@ if exists('g:plugs["nerdtree"]')
 
  autocmd FileType nerdtree setlocal signcolumn=no 
 
+ " langsung keluar ketika membuka file
   let NERDTreeQuitOnOpen = 1
   let NERDTreeMinimalUI = 1
   let NERDTreeAutoDeleteBuffer = 1
