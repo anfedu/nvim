@@ -6,12 +6,14 @@ nmap <silent> <c-l> :wincmd l<CR>
 
 " nerdtree
 map <leader>e :NERDTreeToggle<CR>
-nnoremap <leader>n :let NERDTreeQuitOnOpen = 0<CR>
+map <leader>n :NERDTreeTabsOpen<CR>
 
 " basic maping
+nnoremap <S-p> :bp<CR>
+nnoremap <S-n> :bn<CR>
 nnoremap <S-k> :tabprevious<CR>
 nnoremap <S-j> :tabnext<CR>
-nnoremap <M-t> :tabnew<CR>
+nnoremap <C-t> :tabnew<CR>
 nnoremap <M-d> :tabclose<CR>
 nnoremap <M-q> :quit!<CR>
 nnoremap <M-w> :wq<CR>
@@ -29,7 +31,7 @@ xmap ga <Plug>(EasyAlign)
 set updatetime=100
 
 "fzf 
-nmap <C-t> :FZF<cr>
+nmap <C-f> :FZF<cr>
 
 "edit nvimrc
 nnoremap <M-e> :edit $HOME/.config/nvim/

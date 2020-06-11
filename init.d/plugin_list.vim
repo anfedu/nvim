@@ -13,6 +13,7 @@ Plug 'jiangmiao/auto-pairs'
 "fuzzy finder
 Plug 'junegunn/fzf', { 'do': './install --bin'  }
 Plug 'preservim/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
 
 "airline
 Plug 'vim-airline/vim-airline'
@@ -31,6 +32,7 @@ Plug 'tpope/vim-surround'
 Plug 'martinjego/react-native-vim-snippets'
 Plug 'jvanja/vim-bootstrap4-snippets'
 Plug 'epilande/vim-react-snippets'
+Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
  let g:coc_global_extensions=[
         \ 'coc-css',

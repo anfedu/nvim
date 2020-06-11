@@ -8,4 +8,4 @@ let g:indentLine_color_gui             = '#222222'
 let g:indentLine_showFirstIndentLevel  = 1
 " let g:indentLine_leadingSpaceEnabled = 1
 let g:indentLine_leadingSpaceChar      = '·'
-let g:indentLine_fileTypeExclude = ['coc-explorer', 'NERDTree'] 
+let g:indentLine_fileTypeExclude = ['coc-explorer', 'NERDTree', 'vim-nerdtree-tabs'] 

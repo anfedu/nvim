@@ -26,31 +26,37 @@ let g:airline_mode_map = {
       \ }
 
   let g:airline_filetype_overrides = {
-      \ 'defx':  ['defx', '%{b:defx.paths[0]}'],
-      \ 'gundo': [ 'Gundo', '' ],
       \ 'help':  [ 'Help', '%f' ],
       \ 'minibufexpl': [ 'MiniBufExplorer', '' ],
       \ 'nerdtree': [ get(g:, 'NERDTreeStatusline', 'NERD'), '' ],
-      \ 'startify': [ 'startify', '' ],
-      \ 'vim-plug': [ 'Plugins', '' ],
-      \ 'vimfiler': [ 'vimfiler', '%{vimfiler#get_status_string()}' ],
-      \ 'vimshell': ['vimshell','%{vimshell#get_status_string()}'],
       \ }
 
 
 " untuk header atas 
 let g:airline#extensions#tabline#show_close_button = 0
-let g:airline#extensions#tabline#buffer_nr_show = 1
-let g:airline_skip_empty_sections = 1
+let g:airline#extensions#tabline#buffer_nr_show = 0
+let g:airline_skip_empty_sections = 0
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#syntastic#enabled = 0
-let g:airline_detect_iminsert=1
 let g:airline#extensions#tmuxline#enabled = 0
-let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_tabs = 0
 let g:airline#extensions#tabline#show_buffers = 0
-let g:airline#extensions#tabline#tab_nr_type = 1 " tab number
-let g:airline#extensions#tabline#show_splits = 1
+let g:airline#extensions#tabline#tab_nr_type = 0 " tab number
+let g:airline#extensions#tabline#show_splits = 0
 let g:airline#extensions#wordcount#enabled = 0
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tagbar#enabled = 1
+let g:airline#extensions#tagbar#enabled = 0
+let g:airline#extensions#tabline#buffer_nr_show = 0
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#nerdtree_status = 0
+
+" separator of tabline
+" let g:airline#extensions#tabline#left_sep = ' '
+" let g:airline#extensions#tabline#right_sep = ' '
+
+" dont display 'utf=8'
+let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
+
+" right side number display
+let g:airline#extensions#tabline#show_tab_count = 0
+
+let g:airline#extensions#tabline#formatter = 'unique_tail'
