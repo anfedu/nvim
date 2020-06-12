@@ -1,9 +1,9 @@
 " if exists('g:plugs["vim-devicons"]')
-"   let WebDevIconsUnicodeDecorateFolderNodesExactMatches    = 1
-"   let g:DevIconsAppendArtifactFix                          = 1
-"   let g:DevIconsEnableFolderExtensionPatternMatching       = 1
-"   let g:DevIconsEnableFolderPatternMatching                = 1
-"   let g:DevIconsEnableFoldersOpenClose                     = 1
+  let WebDevIconsUnicodeDecorateFolderNodesExactMatches    = 1
+  let g:DevIconsAppendArtifactFix                          = 1
+  let g:DevIconsEnableFolderExtensionPatternMatching       = 1
+  let g:DevIconsEnableFolderPatternMatching                = 1
+  let g:DevIconsEnableFoldersOpenClose                     = 1
 "   let g:WebDevIconsNerdTreeAfterGlyphPadding               = ' '
 "   let g:WebDevIconsNerdTreeGitPluginForceVAlign            = 1
 "   let g:WebDevIconsOS                                      = 'Linux'

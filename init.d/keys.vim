@@ -9,10 +9,10 @@ map <leader>e :NERDTreeToggle<CR>
 map <leader>n :NERDTreeTabsOpen<CR>
 
 " basic maping
-nnoremap <S-p> :bp<CR>
-nnoremap <S-n> :bn<CR>
-nnoremap <S-k> :tabprevious<CR>
-nnoremap <S-j> :tabnext<CR>
+nnoremap <S-k> :bp<CR>
+nnoremap <S-j> :bn<CR>
+nnoremap <S-p> :tabprevious<CR>
+nnoremap <S-n> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>
 nnoremap <M-d> :tabclose<CR>
 nnoremap <M-q> :quit!<CR>
