@@ -14,3 +14,6 @@ source $HOME/.config/nvim/plugin/indentline.vim
 source $HOME/.config/nvim/plugin/coc.vim
 source $HOME/.config/nvim/plugin/NERDTree.vim
 source $HOME/.config/nvim/plugin/devicons.vim
+source $HOME/.config/nvim/plugin/fzf.vim
+source $HOME/.config/nvim/plugin/markdown.vim
+source $HOME/.config/nvim/plugin/markdown_preview.vim

@@ -18,7 +18,7 @@ nnoremap <M-d> :tabclose<CR>
 nnoremap <M-q> :quit!<CR>
 nnoremap <M-w> :wq<CR>
 
-" save with ctrl+s in normal & insert mode
+" insert mapping
 " noremap  <silent> <C-S>   :update<CR>
 " inoremap <silent> <C-S>   <C-O>:update<CR><ESC>
 inoremap <silent> <M-q>   <C-O>:quit!<CR><ESC>
@@ -30,8 +30,12 @@ xmap ga <Plug>(EasyAlign)
 "vim gitgutter
 set updatetime=100
 
-"fzf 
-nmap <C-f> :FZF<cr>
-
 "edit nvimrc
 nnoremap <M-e> :edit $HOME/.config/nvim/
+
+"" compile
+autocmd filetype python nnoremap <F4> :w <bar> exec '!python3 '.shellescape('%')<CR>
+autocmd filetype c nnoremap <F4> :w <bar> exec '!gcc '.shellescape('%').' -o '.shellescape('%:r')<CR>
+autocmd filetype cpp nnoremap <F4> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r')<CR>
+autocmd filetype javascript nnoremap <F4> :w <bar> exec '!node '.shellescape('%')<CR>
+"

@@ -32,8 +32,3 @@ autocmd FileType gitcommit setlocal colorcolumn=80 textwidth=80 fo+=t fo-=l
 autocmd filetype snippets setlocal expandtab shiftwidth=2 softtabstop=2 textwidth=0
 "
 
-"" compile
-autocmd filetype python nnoremap <F4> :w <bar> exec '!python3 '.shellescape('%')<CR>
-autocmd filetype c nnoremap <F4> :w <bar> exec '!gcc '.shellescape('%').' -o '.shellescape('%:r')<CR>
-autocmd filetype cpp nnoremap <F4> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r')<CR>
-"

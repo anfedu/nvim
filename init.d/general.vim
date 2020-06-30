@@ -21,6 +21,7 @@ set noswapfile
 set nowrap
 set nostartofline
 set nohlsearch
+set textwidth=80
 set cc=82
 
 " mouse

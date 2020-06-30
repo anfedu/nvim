@@ -49,14 +49,12 @@ let g:airline#extensions#tabline#buffer_nr_show = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#nerdtree_status = 0
 
-" separator of tabline
-" let g:airline#extensions#tabline#left_sep = ' '
-" let g:airline#extensions#tabline#right_sep = ' '
-
 " dont display 'utf=8'
 let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
 
 " right side number display
 let g:airline#extensions#tabline#show_tab_count = 0
 
-let g:airline#extensions#tabline#formatter = 'unique_tail'
+" let g:airline#extensions#tabline#formatter = 'default'
+
+let g:webdevicons_enable_airline_tabline = 1

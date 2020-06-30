@@ -6,6 +6,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'dikiaap/minimalist'
 Plug 'KabbAmine/vCoolor.vim'
+Plug 'tpope/vim-commentary'
 
 "pairs
 Plug 'jiangmiao/auto-pairs'
@@ -23,12 +24,13 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Yggdroot/indentLine'
 
 "tabular
-Plug 'tomtom/tcomment_vim'
 Plug 'Junegunn/vim-easy-align'
 
 "utility
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
+Plug 'plasticboy/vim-markdown'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'martinjego/react-native-vim-snippets'
 Plug 'jvanja/vim-bootstrap4-snippets'
 Plug 'epilande/vim-react-snippets'
