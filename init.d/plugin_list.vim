@@ -2,19 +2,29 @@ call plug#begin('~/.vim/plugged')
 
 "syntax
 Plug 'sheerun/vim-polyglot'
-Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'dikiaap/minimalist'
+
+"icons
+Plug 'ryanoasis/vim-devicons'
+
+"color picker
 Plug 'KabbAmine/vCoolor.vim'
-Plug 'tpope/vim-commentary'
+
+"comment
+Plug 'tomtom/tcomment_vim'
+" Plug 'tpope/vim-commentary'
 
 "pairs
 Plug 'jiangmiao/auto-pairs'
+Plug 'luochen1990/rainbow'
+Plug 'tpope/vim-surround'
 
 "fuzzy finder
 Plug 'junegunn/fzf', { 'do': './install --bin'  }
 Plug 'preservim/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'voldikss/vim-floaterm'
 
 "airline
 Plug 'vim-airline/vim-airline'
@@ -26,11 +36,15 @@ Plug 'Yggdroot/indentLine'
 "tabular
 Plug 'Junegunn/vim-easy-align'
 
-"utility
+"multi cursors
 Plug 'terryma/vim-multiple-cursors'
-Plug 'tpope/vim-surround'
+" Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
+"markdown
 Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+
+"autocompletion
 Plug 'martinjego/react-native-vim-snippets'
 Plug 'jvanja/vim-bootstrap4-snippets'
 Plug 'epilande/vim-react-snippets'

@@ -12,7 +12,7 @@ autocmd FileType javascript,jst,ezt,javascriptreact setlocal expandtab shiftwidt
 " }}}
 
 "" php {{{
-autocmd FileType php setlocal expandtab shiftwidth=2 softtabstop=2 textwidth=0
+autocmd FileType php setlocal expandtab shiftwidth=2 softtabstop=2 textwidth=0 colorcolumn=80
 " }}}
 
 "" python {{{

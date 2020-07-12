@@ -30,7 +30,7 @@ hi DiffChange       ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=#b8860
 hi DiffDelete       ctermfg=167     ctermbg=NONE    cterm=NONE      guifg=#D75F5F       guibg=NONE      gui=NONE
 hi DiffText         ctermfg=255     ctermbg=24      cterm=bold      guifg=#EEEEEE       guibg=#005F87   gui=bold
 hi Directory        ctermfg=179     ctermbg=NONE    cterm=NONE      guifg=#D7AF5F       guibg=NONE      gui=NONE
-hi ErrorMsg         ctermfg=255     ctermbg=167     cterm=NONE      guifg=#000000       guibg=#FFAF5F   gui=NONE
+hi ErrorMsg         ctermfg=255     ctermbg=167     cterm=NONE      guifg=#D75F5F       guibg=NONE      gui=NONE
 hi FoldColumn       ctermfg=117     ctermbg=239     cterm=NONE      guifg=#87D7FF       guibg=#121212   gui=NONE
 hi Folded           ctermfg=242     ctermbg=234     cterm=NONE      guifg=#666666       guibg=#121212   gui=NONE
 hi IncSearch        ctermfg=234     ctermbg=75      cterm=NONE      guifg=#121212       guibg=#5FAFFF   gui=NONE
@@ -50,7 +50,7 @@ hi Title            ctermfg=255     ctermbg=NONE    cterm=NONE      guifg=#c6c6c
 hi Underlined       ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 hi VertSplit        ctermfg=239     ctermbg=239     cterm=NONE      guifg=#AFD787       guibg=NONE      gui=NONE
 hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=NONE          guibg=#333333   gui=NONE
-hi WarningMsg       ctermfg=255     ctermbg=167     cterm=NONE      guifg=#000000       guibg=#FFAF5F   gui=NONE
+hi WarningMsg       ctermfg=255     ctermbg=167     cterm=NONE      guifg=#D75F5F       guibg=NONE      gui=NONE
 hi WildMenu         ctermfg=234     ctermbg=215     cterm=NONE      guifg=#121212       guibg=#32cd32   gui=NONE
 hi NERDTreeUp       ctermfg=167     ctermbg=NONE    cterm=NONE      guifg=#32cd32       guibg=NONE      gui=bold
 hi NERDTreeDir      ctermfg=251     ctermbg=NONE    cterm=bold      guifg=#C6C6C6       guibg=NONE      gui=bold

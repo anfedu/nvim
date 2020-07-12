@@ -33,5 +33,5 @@ endfunction
 autocmd! User FzfStatusLine call <SID>fzf_statusline()
 
 " key binding
-nmap <C-f> :FZF --reverse --info=inline /home/anf/<CR>
+nmap <C-f> :FZF --reverse --info=inline <CR>
 

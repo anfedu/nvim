@@ -22,13 +22,14 @@ set nowrap
 set nostartofline
 set nohlsearch
 set textwidth=80
-set cc=82
+set cc=84
 
 " mouse
 set mouse=a
 
 " case
 set ignorecase
+set infercase
 set smartcase
 
 " indent
@@ -70,3 +71,4 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 
 " clipboard
 set clipboard+=unnamedplus
+
