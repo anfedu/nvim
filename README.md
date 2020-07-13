@@ -17,10 +17,10 @@ Make sure you are already install all dependencies above, and then run this comm
 * ```sudo apt install neovim```
 * ```npm i -g neovim```
 
-after you have neovim installed on your machine, you can make directory with the name is nvim in the .config directory. run the following command : 
+after you have neovim installed on your machine, you can make directory with name called 'nvim' in the .config directory. run the following command : 
 * ```mkdir .config/nvim```
 
-and then cloning my configuration if you interesting with my vim config, just funning this command : 
+and then cloning my configuration if you interesting with my vim config, just running this command : 
 * ```cd```
 I ```cd .config/nvim```
 * ```git clone https://github.com/anfedu/nvim.git```
