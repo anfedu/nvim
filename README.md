@@ -13,11 +13,11 @@ dependencies :
 * pip3-python3
 * tmux {optional}
 
-Make sure you are already install all dependencies above, and then run this command (I'm using ubuntu) on your terminal : 
+Make sure you are already to install all dependencies above, and then run the following command (I'm using ubuntu) on your terminal : 
 * ```sudo apt install neovim```
 * ```npm i -g neovim```
 
-after you have neovim installed on your machine, you can make directory 'nvim' in the .config directory. run the following command : 
+after you have done neovim installed on your machine, you can make directory 'nvim' in the .config directory. run the following command : 
 * ```mkdir .config/nvim```
 
 and then cloning my configuration if you interesting with my vim config, just running this command : 
