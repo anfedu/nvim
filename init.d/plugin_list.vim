@@ -4,6 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'sheerun/vim-polyglot'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'dikiaap/minimalist'
+Plug 'joshdick/onedark.vim'
 
 "icons
 Plug 'ryanoasis/vim-devicons'
@@ -29,6 +30,8 @@ Plug 'voldikss/vim-floaterm'
 "airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" Plug 'itchyny/lightline.vim'
+" Plug 'mengelbrecht/lightline-bufferline'
 
 "indentation
 Plug 'Yggdroot/indentLine'
@@ -38,7 +41,6 @@ Plug 'Junegunn/vim-easy-align'
 
 "multi cursors
 Plug 'terryma/vim-multiple-cursors'
-" Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 "markdown
 Plug 'plasticboy/vim-markdown'

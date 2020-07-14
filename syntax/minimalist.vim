@@ -1,4 +1,3 @@
-
 " Minimalist - A Material Color Scheme Darker
 "
 " Author:       Diki Ananta <diki1aap@gmail.com>
@@ -35,21 +34,21 @@ hi FoldColumn       ctermfg=117     ctermbg=239     cterm=NONE      guifg=#87D7F
 hi Folded           ctermfg=242     ctermbg=234     cterm=NONE      guifg=#666666       guibg=#121212   gui=NONE
 hi IncSearch        ctermfg=234     ctermbg=75      cterm=NONE      guifg=#121212       guibg=#5FAFFF   gui=NONE
 hi LineNr           ctermfg=59      ctermbg=234     cterm=NONE      guifg=#5F5F5F       guibg=#121212   gui=NONE
-hi MatchParen       ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=#ffff00       guibg=NONE      gui=NONE
+hi MatchParen       ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=#ffff00       guibg=NONE      gui=bold
 hi MoreMsg          ctermfg=150     ctermbg=NONE    cterm=NONE      guifg=#AFD787       guibg=NONE      gui=NONE
 hi NonText          ctermfg=234     ctermbg=234     cterm=NONE      guifg=#121212       guibg=#121212   gui=NONE
 hi Normal           ctermfg=255     ctermbg=234     cterm=NONE      guifg=#EEEEEE       guibg=#121212   gui=NONE 
 hi Pmenu            ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=#ffe4e1       guibg=#121212   gui=NONE
 hi PmenuSel         ctermfg=NONE    ctermbg=59      cterm=NONE      guifg=#000000       guibg=#AFD787   gui=NONE
 hi Question         ctermfg=150     ctermbg=NONE    cterm=NONE      guifg=#AFD787       guibg=NONE      gui=bold
-hi Search           ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=NONE          guibg=#000000   gui=underline
+hi Search           ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=#ffff00       guibg=NONE      gui=NONE
 hi SignColumn       ctermfg=NONE    ctermbg=237     cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 hi StatusLine       ctermfg=255     ctermbg=239     cterm=bold      guifg=#C6C6C6       guibg=#121212   gui=bold
 hi StatusLineNC     ctermfg=255     ctermbg=239     cterm=NONE      guifg=#c6c6c6       guibg=#121212   gui=NONE
 hi Title            ctermfg=255     ctermbg=NONE    cterm=NONE      guifg=#c6c6c6       guibg=NONE      gui=NONE
 hi Underlined       ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 hi VertSplit        ctermfg=239     ctermbg=239     cterm=NONE      guifg=#AFD787       guibg=NONE      gui=NONE
-hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=NONE          guibg=#333333   gui=NONE
+hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=#000000       guibg=#1e90ff   gui=bold
 hi WarningMsg       ctermfg=255     ctermbg=167     cterm=NONE      guifg=#D75F5F       guibg=NONE      gui=NONE
 hi WildMenu         ctermfg=234     ctermbg=215     cterm=NONE      guifg=#121212       guibg=#32cd32   gui=NONE
 hi NERDTreeUp       ctermfg=167     ctermbg=NONE    cterm=NONE      guifg=#32cd32       guibg=NONE      gui=bold

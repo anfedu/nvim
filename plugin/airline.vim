@@ -48,6 +48,7 @@ let g:airline#extensions#tagbar#enabled = 0
 let g:airline#extensions#tabline#buffer_nr_show = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#nerdtree_status = 0
+let g:webdevicons_enable_airline_tabline = 1
 
 " dont display 'utf=8'
 let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
@@ -55,6 +56,8 @@ let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
 " right side number display
 let g:airline#extensions#tabline#show_tab_count = 0
 
-" let g:airline#extensions#tabline#formatter = 'default'
-
-let g:webdevicons_enable_airline_tabline = 1
+" separator tabline
+" let g:airline#extensions#tabline#left_sep = ''
+" let g:airline#extensions#tabline#left_alt_sep = ''
+" let g:airline#extensions#tabline#right_sep = ''
+" let g:airline#extensions#tabline#right_alt_sep = ''

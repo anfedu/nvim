@@ -1,3 +1,6 @@
+" hide buffer
+set hidden
+
 " swapfile
 set noswapfile
 set expandtab 
@@ -45,6 +48,7 @@ set rnu
 syntax on
 set syntax=minimalist
 " colorscheme minimalist
+" colorscheme onedark
 set encoding=UTF-8
 
 " color
@@ -72,3 +76,18 @@ set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
 " clipboard
 set clipboard+=unnamedplus
 
+" highlight match word
+function! HighlightWordUnderCursor()
+    if getline(".")[col(".")-1] !~# '[[:punct:][:blank:]]' 
+        exec 'match' 'Search' '/\V\<'.expand('<cword>').'\>/' 
+    else 
+        match none 
+    endif
+endfunction
+
+autocmd! CursorHold,CursorHoldI * call HighlightWordUnderCursor()
+
+hi TabLineFill ctermfg=LightGreen ctermbg=DarkGreen
+hi TabLine ctermfg=Blue ctermbg=Yellow
+hi TabLineSel ctermfg=Red ctermbg=Yellow
+hi Title ctermfg=LightBlue ctermbg=Magenta

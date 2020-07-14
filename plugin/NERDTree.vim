@@ -1,3 +1,6 @@
+" ------------
+" | NERDTree |
+" -----------
 let g:WebDevIconsDisableDefaultFolderSymbolColorFromNERDTreeDir = 1
 
 let g:NERDTreeDirArrowExpandable                                = ''
@@ -12,3 +15,4 @@ augroup nerdtreeconcealbrackets
       autocmd FileType nerdtree setlocal conceallevel=3
       autocmd FileType nerdtree setlocal concealcursor=nvic
 augroup END
+
