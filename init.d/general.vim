@@ -14,6 +14,11 @@ highlight clear SignColumn
 " command
 set noshowcmd
 set noshowmode
+set notr
+set noml
+set nomore
+set nobl
+set shortmess+=F
 set updatetime=50
 
 " backup

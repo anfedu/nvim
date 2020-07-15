@@ -48,6 +48,7 @@ let g:airline#extensions#tagbar#enabled = 0
 let g:airline#extensions#tabline#buffer_nr_show = 0
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#nerdtree_status = 0
+let g:airline#extensions#whitespace#enabled = 0
 let g:webdevicons_enable_airline_tabline = 1
 
 " dont display 'utf=8'
