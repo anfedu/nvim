@@ -18,7 +18,7 @@ let g:colors_name = "minimalist"
 """""""""""""""""""""""
 " General
 """""""""""""""""""""""
-hi Cursor           ctermfg=234     ctermbg=255     cterm=NONE      guifg=#ffff00       guibg=#7fffda   gui=underline
+hi Cursor           ctermfg=234     ctermbg=255     cterm=NONE      guifg=NONE          guibg=#00ffff   gui=underline
 hi termcursor       ctermfg=234     ctermbg=255     cterm=NONE      guifg=#121212       guibg=#32cd32   gui=NONE
 hi CursorColumn     ctermfg=NONE    ctermbg=233     cterm=NONE      guifg=NONE          guibg=#101000   gui=NONE
 hi CursorLine       ctermfg=NONE    ctermbg=233     cterm=NONE      guifg=NONE          guibg=#101000		gui=NONE
@@ -37,18 +37,18 @@ hi LineNr           ctermfg=59      ctermbg=234     cterm=NONE      guifg=#5F5F5
 hi MatchParen       ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=#ffff00       guibg=NONE      gui=bold
 hi MoreMsg          ctermfg=150     ctermbg=NONE    cterm=NONE      guifg=#AFD787       guibg=NONE      gui=NONE
 hi NonText          ctermfg=234     ctermbg=234     cterm=NONE      guifg=#121212       guibg=#121212   gui=NONE
-hi Normal           ctermfg=255     ctermbg=234     cterm=NONE      guifg=#EEEEEE       guibg=#121212   gui=NONE 
+hi Normal           ctermfg=255     ctermbg=234     cterm=NONE      guifg=#eeeeee       guibg=#121212   gui=NONE 
 hi Pmenu            ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=#ffe4e1       guibg=#121212   gui=NONE
 hi PmenuSel         ctermfg=NONE    ctermbg=59      cterm=NONE      guifg=#000000       guibg=#AFD787   gui=NONE
 hi Question         ctermfg=150     ctermbg=NONE    cterm=NONE      guifg=#AFD787       guibg=NONE      gui=bold
 hi Search           ctermfg=NONE    ctermbg=NONE    cterm=underline guifg=#ffff00       guibg=NONE      gui=NONE
 hi SignColumn       ctermfg=NONE    ctermbg=237     cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
-hi StatusLine       ctermfg=255     ctermbg=239     cterm=bold      guifg=#C6C6C6       guibg=#121212   gui=bold
-hi StatusLineNC     ctermfg=255     ctermbg=239     cterm=NONE      guifg=#c6c6c6       guibg=#121212   gui=NONE
-hi Title            ctermfg=255     ctermbg=NONE    cterm=NONE      guifg=#c6c6c6       guibg=NONE      gui=NONE
+hi StatusLine       ctermfg=255     ctermbg=239     cterm=bold      guifg=#555555       guibg=#121212   gui=NONE
+hi StatusLineNC     ctermfg=255     ctermbg=239     cterm=NONE      guifg=#333333       guibg=#121212   gui=NONE
+hi Title            ctermfg=255     ctermbg=NONE    cterm=NONE      guifg=#00ffff       guibg=NONE      gui=NONE
 hi Underlined       ctermfg=NONE    ctermbg=NONE    cterm=NONE      guifg=NONE          guibg=NONE      gui=NONE
 hi VertSplit        ctermfg=239     ctermbg=239     cterm=NONE      guifg=#AFD787       guibg=NONE      gui=NONE
-hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=#000000       guibg=#1e90ff   gui=bold
+hi Visual           ctermfg=NONE    ctermbg=236     cterm=NONE      guifg=NONE          guibg=#003030   gui=bold
 hi WarningMsg       ctermfg=255     ctermbg=167     cterm=NONE      guifg=#D75F5F       guibg=NONE      gui=NONE
 hi WildMenu         ctermfg=234     ctermbg=215     cterm=NONE      guifg=#121212       guibg=#32cd32   gui=NONE
 hi NERDTreeUp       ctermfg=167     ctermbg=NONE    cterm=NONE      guifg=#32cd32       guibg=NONE      gui=bold

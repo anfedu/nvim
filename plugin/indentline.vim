@@ -8,3 +8,4 @@ let g:indentLine_color_gui            = '#222222'
 let g:indentLine_showFirstIndentLevel = 1
 let g:indentLine_fileTypeExclude      = ['NERDTree', 'txt', 'git']
 let g:indentLine_bufTypeExclude       = ['help', 'terminal']
+let g:indentLine_enabled              = 0

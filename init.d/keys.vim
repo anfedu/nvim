@@ -9,10 +9,8 @@ map <leader>e :NERDTreeToggle<CR>
 map <leader>n :NERDTreeTabsOpen<CR>
 
 " basic maping
-nnoremap <S-k> :bp<CR>
-nnoremap <S-j> :bn<CR>
-nnoremap <S-p> :tabprevious<CR>
-nnoremap <S-n> :tabnext<CR>
+nnoremap <C-PageDown> :bn<CR>
+nnoremap <C-PageUp> :bp<CR>
 nnoremap <C-t> :tabnew<CR>
 nnoremap <M-d> :tabclose<CR>
 nnoremap <M-q> :quit!<CR>
@@ -31,20 +29,20 @@ inoremap <A-up> <Esc>:m .-2<CR>==gi
 vnoremap <A-down> :m '>+1<CR>gv=gv
 vnoremap <A-up> :m '<-2<CR>gv=gv
 
-" easy align
-nmap ga <Plug>(EasyAlign)
-xmap ga <Plug>(EasyAlign)
-
 "vim gitgutter
 set updatetime=100
 
 "edit nvimrc
 nnoremap <M-e> :edit $HOME/.config/nvim/
 
-"" compile
+" compile
 autocmd filetype python nnoremap <F4> :w <bar> exec '!python3 '.shellescape('%')<CR>
 autocmd filetype c nnoremap <F4> :w <bar> exec '!gcc '.shellescape('%').' -o '.shellescape('%:r')<CR>
 autocmd filetype cpp nnoremap <F4> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r')<CR>
 autocmd filetype javascript nnoremap <F4> :w <bar> exec '!node '.shellescape('%')<CR>
 autocmd filetype go nnoremap <F4> :w <bar> exec '!go run '.shellescape('%')<CR>
 
+"toggle
+nnoremap <C-i> :IndentLinesToggle<CR>
+nnoremap <C-a> :AirlineToggle<CR>
+nnoremap <C-w> :set wrap linebreak<CR>

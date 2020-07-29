@@ -16,3 +16,5 @@ augroup nerdtreeconcealbrackets
       autocmd FileType nerdtree setlocal concealcursor=nvic
 augroup END
 
+" let g:NERDTreeDirArrowExpandable = '▸'
+" let g:NERDTreeDirArrowCollapsible = '▾'
