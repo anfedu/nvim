@@ -46,3 +46,6 @@ autocmd filetype go nnoremap <F4> :w <bar> exec '!go run '.shellescape('%')<CR>
 nnoremap <C-i> :IndentLinesToggle<CR>
 nnoremap <C-a> :AirlineToggle<CR>
 nnoremap <C-w> :set wrap linebreak<CR>
+
+"coc-restclient
+noremap <Leader>0 :CocCommand rest-client.request <cr>
