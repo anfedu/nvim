@@ -1,10 +1,8 @@
 " ------------
 " | NERDTree |
 " -----------
-let g:WebDevIconsDisableDefaultFolderSymbolColorFromNERDTreeDir = 1
+" let g:WebDevIconsDisableDefaultFolderSymbolColorFromNERDTreeDir = 1
 
-" let g:NERDTreeDirArrowExpandable                                = ''
-" let g:NERDTreeDirArrowCollapsible                               = ''
 
 let NERDTreeMinimalUI                                           = 1
 
@@ -16,5 +14,8 @@ augroup nerdtreeconcealbrackets
       autocmd FileType nerdtree setlocal concealcursor=nvic
 augroup END
 
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
+" let g:NERDTreeDirArrowExpandable = '▸'
+" let g:NERDTreeDirArrowCollapsible = '▾'
+
+let g:NERDTreeDirArrowExpandable                                = ''
+let g:NERDTreeDirArrowCollapsible                               = ''

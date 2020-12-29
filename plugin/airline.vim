@@ -1,7 +1,7 @@
 """"""""""""""""""""""
 """""" airline  """"""
 """"""""""""""""""""""
-" let g:airline_theme = 'minimalist'
+let g:airline_theme = 'dark'
 let g:airline_powerline_fonts = 1
 
 let g:airline_mode_map = {
@@ -58,8 +58,8 @@ let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
 let g:airline#extensions#tabline#show_tab_count = 0
 
 " separator tabline
- let g:airline#extensions#tabline#left_sep = ''
- let g:airline#extensions#tabline#left_alt_sep = ''
- let g:airline#extensions#tabline#right_sep = ''
- let g:airline#extensions#tabline#right_alt_sep = ''
+"  let g:airline#extensions#tabline#left_sep = ''
+"  let g:airline#extensions#tabline#left_alt_sep = ''
+"  let g:airline#extensions#tabline#right_sep = ''
+"  let g:airline#extensions#tabline#right_alt_sep = ''
 

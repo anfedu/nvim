@@ -1,8 +1,5 @@
 " hide buffer
 set hidden
-
-" swapfile
-set noswapfile
 set expandtab 
 
 " ruler
@@ -23,7 +20,10 @@ set updatetime=50
 
 " backup
 set nobackup
+set nowritebackup
 set noswapfile
+set undofile
+set undodir=.path/to/undodir
 
 " line
 set nowrap

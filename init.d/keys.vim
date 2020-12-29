@@ -1,17 +1,17 @@
 " navigate split screens easily
-nmap <silent> <c-k> :wincmd k<CR>
-nmap <silent> <c-j> :wincmd j<CR>
-nmap <silent> <c-h> :wincmd h<CR>
-nmap <silent> <c-l> :wincmd l<CR>
+" nmap <silent> <c-k> :wincmd k<CR>
+" nmap <silent> <c-j> :wincmd j<CR>
+" nmap <silent> <c-h> :wincmd h<CR>
+" nmap <silent> <c-l> :wincmd l<CR>
 
 " nerdtree
 map <leader>e :NERDTreeToggle<CR>
 map <leader>n :NERDTreeTabsOpen<CR>
 
 " basic maping
-nnoremap <C-PageDown> :bn<CR>
-nnoremap <C-PageUp> :bp<CR>
 nnoremap <C-t> :tabnew<CR>
+nnoremap <C-PageUp> :bp<CR>
+nnoremap <C-PageDown> :bn<CR>
 nnoremap <M-d> :tabclose<CR>
 nnoremap <M-q> :quit!<CR>
 nnoremap <M-w> :wq<CR>
@@ -43,9 +43,8 @@ autocmd filetype javascript nnoremap <F4> :w <bar> exec '!node '.shellescape('%'
 autocmd filetype go nnoremap <F4> :w <bar> exec '!go run '.shellescape('%')<CR>
 
 "toggle
-nnoremap <C-i> :IndentLinesToggle<CR>
-nnoremap <C-a> :AirlineToggle<CR>
-nnoremap <C-w> :set wrap linebreak<CR>
+" nnoremap <C-a> :AirlineToggle<CR>
+" nnoremap <C-w> :set wrap linebreak<CR>
 
 "coc-restclient
 noremap <Leader>0 :CocCommand rest-client.request <cr>

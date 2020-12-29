@@ -44,8 +44,8 @@ Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install', 'on': 'MarkdownPreview'  }
 
 "autocompletion
-Plug 'martinjego/react-native-vim-snippets'
-Plug 'epilande/vim-react-snippets'
+" Plug 'martinjego/react-native-vim-snippets'
+" Plug 'epilande/vim-react-snippets'
 Plug 'mattn/emmet-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
  let g:coc_global_extensions=[
